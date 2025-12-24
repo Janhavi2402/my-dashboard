@@ -159,10 +159,10 @@ export default function App() {
           <div className="grid grid-cols-12 gap-3 flex-1 min-h-0">
              
              {/* 1. LEFT COLUMN */}
-             <div className="col-span-12 lg:col-span-7 flex flex-col gap-6 h-full">
+             <div className="col-span-12 lg:col-span-7 flex flex-col gap-4 h-full">
                 
                 {/* Row 1: Filters & Bar Chart  */}
-                <div className="grid grid-cols-12 gap-3 h-48 shrink-0">
+                <div className="grid grid-cols-12 gap-3 h-49 shrink-0">
                    {/* Platform List Box */}
                    <div className="col-span-5 bg-gray-50 rounded-[24px] p-4 flex flex-col justify-between">
                       <div className="flex justify-between items-center mb-1">
