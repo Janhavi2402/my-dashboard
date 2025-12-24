@@ -1,16 +1,40 @@
-# React + Vite
+# 📊 Modern Analytics Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, high-performance analytics dashboard built with React and Vite. It features a modern bento-grid layout, dynamic SVG charts, and a clean user interface.
 
-Currently, two official plugins are available:
+![Dashboard Preview](public/preview.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Technologies Used
 
-## React Compiler
+This project was built using the following modern web technologies:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **[React](https://reactjs.org/)**: JavaScript library for building user interfaces.
+* **[Vite](https://vitejs.dev/)**: Next Generation Frontend Tooling (Super fast build time).
+* **[Tailwind CSS](https://tailwindcss.com/)**: Utility-first CSS framework for custom designs.
+* **[Lucide React](https://lucide.dev/)**: Beautiful & consistent open-source icons.
+* **[Vercel](https://vercel.com/)**: For seamless, zero-config deployment.
 
-## Expanding the ESLint configuration
+## 🛠️ Installation & Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Follow these steps to run the project locally on your machine.
+
+### 1. Clone the repository
+```bash
+git clone [https://github.com/YOUR_USERNAME/my-dashboard.git](https://github.com/YOUR_USERNAME/my-dashboard.git)
+cd my-dashboard
+
+npm install
+
+npm run dev
+
+my-dashboard/
+├── public/              # Static assets (favicons, preview.png)
+├── src/
+│   ├── assets/          # Project images (avatars, rail icons)
+│   ├── components/      # Reusable components (Sidebar, Charts, Pills)
+│   ├── App.jsx          # Main application layout
+│   └── main.jsx         # Entry point
+├── index.html           # HTML entry point
+├── tailwind.config.js   # Tailwind configuration
+└── vite.config.js       # Vite configuration
+
