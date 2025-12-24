@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-pink: #E91E63;
+  --color-bg-gray: #F3F3F3;
+}
+
+/* Force the app to stay in one screen */
+html, body, #root {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  overflow: hidden; 
+  background-color: var(--color-bg-gray);
+  font-family: 'Inter', sans-serif;
+}
+
+/* Utility to hide scrollbars while allowing internal scrolling */
+@utility no-scrollbar {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
