@@ -2,7 +2,7 @@
 
 A responsive, high-performance analytics dashboard built with React and Vite. It features a modern bento-grid layout, dynamic SVG charts, and a clean user interface.
 
-![Dashboard Preview](public/preview.png)
+![Dashboard Preview](public/Screenshot 2025-12-24 213142.png)
 
 ## 🚀 Technologies Used
 
@@ -12,7 +12,7 @@ This project was built using the following modern web technologies:
 * **[Vite](https://vitejs.dev/)**: Next Generation Frontend Tooling (Super fast build time).
 * **[Tailwind CSS](https://tailwindcss.com/)**: Utility-first CSS framework for custom designs.
 * **[Lucide React](https://lucide.dev/)**: Beautiful & consistent open-source icons.
-* **[Vercel](https://vercel.com/)**: For seamless, zero-config deployment.
+
 
 ## 🛠️ Installation & Setup
 
