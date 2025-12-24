@@ -18,18 +18,20 @@ This project was built using the following modern web technologies:
 
 Follow these steps to run the project locally on your machine.
 
-### 1. Clone the repository
+
 ```bash
 git clone [https://github.com/YOUR_USERNAME/my-dashboard.git](https://github.com/YOUR_USERNAME/my-dashboard.git)
 cd my-dashboard
+```
 
 ```bash
 npm install
+```
 
 
 ```bash
 npm run dev
-
+```
 
 ```bash
 my-dashboard/
