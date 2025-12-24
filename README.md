@@ -2,7 +2,7 @@
 
 A responsive, high-performance analytics dashboard built with React and Vite. It features a modern bento-grid layout, dynamic SVG charts, and a clean user interface.
 
-![Dashboard Preview](public/Screenshot 2025-12-24 213142.png)
+![Dashboard Preview](preview.png)
 
 ## 🚀 Technologies Used
 
@@ -23,10 +23,15 @@ Follow these steps to run the project locally on your machine.
 git clone [https://github.com/YOUR_USERNAME/my-dashboard.git](https://github.com/YOUR_USERNAME/my-dashboard.git)
 cd my-dashboard
 
+```bash
 npm install
 
+
+```bash
 npm run dev
 
+
+```bash
 my-dashboard/
 ├── public/              # Static assets (favicons, preview.png)
 ├── src/
